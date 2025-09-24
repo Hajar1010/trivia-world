@@ -1,0 +1,172 @@
+#nav {
+  background-color: rgb(91, 170, 239);
+  padding: 10px;
+}
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#nav li {
+  margin: 10px;
+}
+#nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#home {
+  padding: 20px;
+  margin: 20px 0;
+  color: rgb(17, 96, 232);
+  line-height: 1.6;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+#categories li {
+  list-style: none;
+}
+#categories li a {
+  text-decoration: none;
+  color: #0654b3;
+  font-size: 18px;
+  text-decoration: none;
+}
+#categories li a:hover {
+  text-decoration: underline;
+}
+
+#scores {
+  width: 100%;
+  border-collapse: collapse;
+}
+#scores th, #scores td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+#scores th {
+  background-color: #333;
+  color: white;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 10px;
+  padding: 10px;
+}
+#contact label {
+  margin-top: 10px;
+}
+#contact textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#contact button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0654b3;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+#contact button:hover {
+  background-color: #002766;
+}
+
+.subscribe-btn {
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: pulse 2s infinite;
+}
+.subscribe-btn:hover {
+  background-color: #218838;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0654b3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0654b3;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.trivia-item {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: center; /* Align items vertically */
+  margin: 20px 0; /* Adds margin to each trivia item */
+  color: #0654b3;
+}
+
+.trivia-item img {
+  width: 150px; /* Sets the width of the images */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 20px; /* Adds margin to the right of the images */
+  border-radius: 5px; /* Adds rounded corners to the images */
+}/*# sourceMappingURL=style.css.map */
